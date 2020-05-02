@@ -1,0 +1,114 @@
+body{
+	background: #181818;
+}
+
+
+header{				
+	width: 98%;
+	margin: auto;
+}
+
+header{				
+	width: 98%;
+	margin: auto;
+}
+
+header nav {
+	background: #36631B;
+	overflow: hidden;
+	color: yellow
+}
+header nav h1{
+
+	
+	display: block;		
+	text-decoration: none;
+	text-align: center;
+}
+
+footer{
+	background: #36631B;				
+	margin: auto;
+	text-align: center;				
+	width: 98%;
+	height: 50px;
+	clear: both;
+}
+
+footer p{
+	color: yellow;
+	padding: 15px 0px;
+}
+
+#main {
+	background: #2F2F2F;
+	float: left;
+	margin-left: 15%;
+	
+}
+
+#tablero{
+	width: 540px;
+	height: 540px;
+	z-index: 0;
+	margin: 25px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#tableroPrincipal{
+	width: 480px;
+	height: 480px;
+	left: 100px;
+    top: 50px;
+    z-index: 1;
+}
+
+#panel{
+	float: left;
+	margin: 25px;
+	width: 400px;
+	background-color: #181818;	
+}
+
+#acercade{
+	color: white;
+}
+
+#panel input {
+	margin-top: 20px;
+}
+
+.nivel1{
+	width: 240px;
+	height: 240px;	
+}
+
+.nivel2 {
+	width: 120px;
+	height: 120px;
+}
+
+.casilla {
+	width: 60px;
+	height: 60px;	
+	position: absolute;
+	border-radius: 20px 20px 20px 20px;	
+	z-index: 0;
+}
+
+
+.fichaRoja {	
+	position: absolute;
+	z-index: 1;
+}
+
+.damaRoja {	
+	position: absolute;
+	content:url("http://path/to/imagen.jpg");
+}
+
+.fichaAzul {	
+	position: absolute;
+	z-index: 1;
+}

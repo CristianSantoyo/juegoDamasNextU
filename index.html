@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto Final Final 4</title>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="estilos/estilo.css">
+	
+
+	<script src="js/external/jquery/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script src="js/Ficha.js" languaje="Javascript"></script>
+    <script src="js/Casilla.js" languaje="Javascript"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+	<header id="head">
+		<div class="logo">
+			<img src="img/nextU.jpg">
+		</div>
+		<nav>
+			<h1>Damas</h1>
+		</nav>
+	</header>
+
+
+	<div id="main">
+
+		<div id="tablero">
+			<img src="img/tablero.jpg">
+			
+			<div id="tableroPrincipal">
+				<!--division del tablero en 4 partes-->
+				<div id="seccion1" class="nivel1"></div>
+				<div id="seccion2" class="nivel1"></div>
+				<div id="seccion3" class="nivel1"></div>
+				<div id="seccion4" class="nivel1"></div>
+
+				<!--división de las partes en 4 partes más-->
+				<div id="seccion11" class="nivel2"></div>
+				<div id="seccion12" class="nivel2"></div>
+				<div id="seccion13" class="nivel2"></div>
+				<div id="seccion14" class="nivel2"></div>
+
+				<div id="seccion21" class="nivel2"></div>
+				<div id="seccion22" class="nivel2"></div>
+				<div id="seccion23" class="nivel2"></div>
+				<div id="seccion24" class="nivel2"></div>
+
+				<div id="seccion31" class="nivel2"></div>
+				<div id="seccion32" class="nivel2"></div>
+				<div id="seccion33" class="nivel2"></div>
+				<div id="seccion34" class="nivel2"></div>
+
+				<div id="seccion41" class="nivel2"></div>
+				<div id="seccion42" class="nivel2"></div>
+				<div id="seccion43" class="nivel2"></div>
+				<div id="seccion44" class="nivel2"></div>
+
+
+
+				<!-- Creación de casillas  esta parte será un poco complicada-->
+				<div id="A1" class="casilla"></div>
+				<div id="C1" class="casilla"></div>
+				<div id="E1" class="casilla"></div>
+				<div id="G1" class="casilla"></div>
+
+				<div id="B2" class="casilla"></div>
+				<div id="D2" class="casilla"></div>
+				<div id="F2" class="casilla"></div>
+				<div id="H2" class="casilla"></div>
+
+				<div id="A3" class="casilla"></div>
+				<div id="C3" class="casilla"></div>
+				<div id="E3" class="casilla"></div>
+				<div id="G3" class="casilla"></div>
+
+				<div id="B4" class="casilla"></div>
+				<div id="D4" class="casilla"></div>
+				<div id="F4" class="casilla"></div>
+				<div id="H4" class="casilla"></div>
+
+				<div id="A5" class="casilla"></div>
+				<div id="C5" class="casilla"></div>
+				<div id="E5" class="casilla"></div>
+				<div id="G5" class="casilla"></div>
+
+				<div id="B6" class="casilla"></div>
+				<div id="D6" class="casilla"></div>
+				<div id="F6" class="casilla"></div>
+				<div id="H6" class="casilla"></div>
+
+				<div id="A7" class="casilla"></div>
+				<div id="C7" class="casilla"></div>
+				<div id="E7" class="casilla"></div>
+				<div id="G7" class="casilla"></div>
+
+				<div id="B8" class="casilla"></div>
+				<div id="D8" class="casilla"></div>
+				<div id="F8" class="casilla"></div>
+				<div id="H8" class="casilla"></div>	
+				
+				<!-- Creación de las piezas-->
+				<img id="r1" src="img/peonRojo.png" class="fichaRoja">
+				<img id="r2" src="img/peonRojo.png" class="fichaRoja">
+				<img id="r3" src="img/peonRojo.png" class="fichaRoja">
+				<img id="r4" src="img/peonRojo.png" class="fichaRoja">
+				<img id="r5" src="img/peonRojo.png" class="fichaRoja">
+				<img id="r6" src="img/peonRojo.png" class="fichaRoja">
+				<img id="r7" src="img/peonRojo.png" class="fichaRoja">
+				<img id="r8" src="img/peonRojo.png" class="fichaRoja">
+				<img id="r9" src="img/peonRojo.png" class="fichaRoja">
+				<img id="r10" src="img/peonRojo.png" class="fichaRoja">
+				<img id="r11" src="img/peonRojo.png" class="fichaRoja">
+				<img id="r12" src="img/peonRojo.png" class="fichaRoja">
+
+				<img id="a1" src="img/peonAzul.png" class="fichaAzul">
+				<img id="a2" src="img/peonAzul.png" class="fichaAzul">
+				<img id="a3" src="img/peonAzul.png" class="fichaAzul">
+				<img id="a4" src="img/peonAzul.png" class="fichaAzul">
+				<img id="a5" src="img/peonAzul.png" class="fichaAzul">
+				<img id="a6" src="img/peonAzul.png" class="fichaAzul">
+				<img id="a7" src="img/peonAzul.png" class="fichaAzul">
+				<img id="a8" src="img/peonAzul.png" class="fichaAzul">
+				<img id="a9" src="img/peonAzul.png" class="fichaAzul">
+				<img id="a10" src="img/peonAzul.png" class="fichaAzul">
+				<img id="a11" src="img/peonAzul.png" class="fichaAzul">
+				<img id="a12" src="img/peonAzul.png" class="fichaAzul">
+
+
+			</div>
+		</div>
+
+		<div id="panel">
+			<ul>
+				<li><a href="#botones">Interfaz de Juego</a></li>
+				<li><a href="#instrucciones">Instrucciones</a></li>
+				<li><a href="#acercade">Acerca de</a></li>				
+			</ul>
+			<div id="botones">
+				<ul>
+					<input type="button" id="posicionar" value="Juego Nuevo" class="ui-button ui-widget ui-corner-all">
+					<input type="button" id="terminarTurno" value="Terminar Turno" class="ui-button ui-widget ui-corner-all">
+					<input type="button" id="pedirTablas" value="Pedir Tablas" class="ui-button ui-widget ui-corner-all">
+					<input type="button" id="aceptarTablas" value="Aceptar Tablas" class="ui-button ui-widget ui-corner-all">
+					<input type="button" id="rechazarTablas" value="Rechazar Tablas" class="ui-button ui-widget ui-corner-all">
+					<input type="button" id="rendirse" value="Rendirse" class="ui-button ui-widget ui-corner-all">
+
+				</ul>
+				
+			</div>
+			<div id="instrucciones">			
+				
+				<iframe width="98%" height="200" src="https://www.youtube.com/embed/jA-zevc2fao" frameborder="0"  allowfullscreen>
+				</iframe>
+			</div>
+
+			<div id="acercade">			
+					<p>Realizado por: Cristian David Santoyo Parra
+						Proyecto realizado para Next University</p>
+						<img src="img/nextU.jpg">				
+			</div>
+		</div>
+	</div>
+
+		
+		
+			
+	
+
+
+	<footer>
+			<p>Cristian David Santoyo Parra</p>
+	</footer>
+</body>
+
+</html>
